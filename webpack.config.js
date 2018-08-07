@@ -12,7 +12,11 @@ module.exports = {
 				use: 'babel-loader',
 				test: /\.js$/,
 				exclude: /node_modules/
-			}, 
+			},
+			{
+				use:['style-loader','css-loader'], //這兩個需有優先順序，css要先解析才能套入html
+				test: /\.css$/
+			}
 		]
 	}
 }

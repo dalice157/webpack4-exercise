@@ -7,7 +7,11 @@
 - **use**：表示是使用哪一個 loader 
 - **test**：哪個附檔名需要轉譯
 - **exclude**：需要排除哪個資料夾
+- **plugins**：來處理一些特殊的功能，比如:打包後輸出一支css
 ## Babel模組介紹
 - **babel-core**：babel 的核心功能模組，負責將 ES6 轉譯成 ES5
 - **babel-loader**：babel 與 Webpack 之間的橋樑
 - **babel-preset-env**：ES6 轉譯成 ES5 時，會自動載入合適的 plugin 和自動選擇支持舊瀏覽器的 javascript 的語法
+## plugins常用
+- **ＭiniCssExtractPlugin**：打包後會生成一支獨立的 CSS 檔
+- **HtmlWebpackPlugin**：打包後會自動生成一支 html 檔

@@ -90,11 +90,11 @@
 /*!*************************!*\
   !*** ./src/fullname.js ***!
   \*************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\nconst fullname = (lastname, firstname) => lastname + ',' + firstname;\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (fullname);\n\n//# sourceURL=webpack:///./src/fullname.js?");
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nvar fullname = function fullname(lastname, firstname) {\n  return lastname + ',' + firstname;\n};\n\nexports.default = fullname;\n\n//# sourceURL=webpack:///./src/fullname.js?");
 
 /***/ }),
 
@@ -102,11 +102,11 @@ eval("__webpack_require__.r(__webpack_exports__);\nconst fullname = (lastname, f
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
-/*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _fullname__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./fullname */ \"./src/fullname.js\");\n\n\nconst person = Object(_fullname__WEBPACK_IMPORTED_MODULE_0__[\"default\"])('Json', 'Wang');\n\nconsole.log(person);\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("\n\nvar _fullname = __webpack_require__(/*! ./fullname */ \"./src/fullname.js\");\n\nvar _fullname2 = _interopRequireDefault(_fullname);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar person = (0, _fullname2.default)('Json', 'Wang');\n\n// console.log(person);\nvar x = document.createElement('div');\nx.innerHTML = person;\nx.className = \"nameTag\";\n\ndocument.body.appendChild(x);\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 
