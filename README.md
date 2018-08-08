@@ -3,7 +3,7 @@
 - **entry**：專案的輸入點
 - **output**：專案打包後的輸出點，包含輸出檔案的檔案名稱與檔案路徑
 - **module**：告訴 Webpack 啟動時需要執行的模組
-- **rules**：此屬性是在 module 屬性裡，放置每個 loader 的地方
+- **rules**：此屬性是在 module 屬性裡，放置每個 loader 的地方
 - **use**：表示是使用哪一個 loader 
 - **test**：哪個附檔名需要轉譯
 - **exclude**：需要排除哪個資料夾
