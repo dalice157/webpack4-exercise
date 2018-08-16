@@ -13,5 +13,5 @@
 - **babel-loader**：babel 與 Webpack 之間的橋樑
 - **babel-preset-env**：ES6 轉譯成 ES5 時，會自動載入合適的 plugin 和自動選擇支持舊瀏覽器的 javascript 的語法
 ## plugins常用
-- **ＭiniCssExtractPlugin**：打包後會生成一支獨立的 CSS 檔
+- **ＭiniCssExtractPlugin**：打包後會生成一支獨立的 CSS 檔，原本的 ExtractTextWebpackPlugin 在webpack 4.0 以上版本已經不適用
 - **HtmlWebpackPlugin**：打包後會自動生成一支 html 檔
