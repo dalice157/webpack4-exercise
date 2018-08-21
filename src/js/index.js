@@ -1,5 +1,5 @@
 import fullname from './fullname.js';
-import '../css/style.css';
+import '../css/index.scss';
 
 const person = fullname('Json', 'Wang');
 
